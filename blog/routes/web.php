@@ -17,3 +17,5 @@ Route::get('/', function () {
 // Route::get('about/{name}', [UserController::class, 'aboutUser']);
 // Route::get('admin-login', [UserController::class, 'adminLogin']);
 
+Route::view('user-form','user-form');
+Route::post('addUser', [UserController::class, 'addUser']);
