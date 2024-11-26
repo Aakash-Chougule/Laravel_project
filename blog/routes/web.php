@@ -7,6 +7,13 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+// Route::view('home','home');
+// Route::view('about','about');
 
-Route::get('user', [UserController::class, 'getUser']);
-Route::get('about/{name}', [UserController::class, 'aboutUser']);
+// Route::get('user-home',[UserController::class, 'userHome']);
+// Route::get('user-about',[UserController::class, 'userAbout']);
+
+// Route::get('user', [UserController::class, 'getUser']);
+// Route::get('about/{name}', [UserController::class, 'aboutUser']);
+// Route::get('admin-login', [UserController::class, 'adminLogin']);
+
